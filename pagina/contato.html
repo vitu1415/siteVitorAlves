@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../estilo/formulario.css">
+        <title>CVC - site teste</title>
+        <link rel="icon" type="image/x-icon" href="../imagem/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html"><img src="../imagem/cvc-logo.png" alt="logo da CVC"></a>
+            <h1>Realizamos sonhos <span style="color: #0A00B4; font-size: 60px;">Juntos</span> e <span style="color: #0A00B4; font-size: 60px;">Economizando</span></h1>
+        </header>
+        <nav>
+            <a href="https://www.cvc.com.br/?utm_content=2023_ic_branding_skag_marco_generica&gad_source" target="_blank">Passagens</a>
+            <a href="https://www.cvc.com.br/?utm_content=2023_ic_branding_skag_marco_generica&gad_source" target="_blank">Hotéis</a>
+            <a href="https://www.cvc.com.br/?utm_content=2023_ic_branding_skag_marco_generica&gad_source" target="_blank">Pacotes</a>
+            <a href="https://www.cvc.com.br/?utm_content=2023_ic_branding_skag_marco_generica&gad_source" target="_blank">Cruzeiro</a>
+            <a href="https://www.cvc.com.br/?utm_content=2023_ic_branding_skag_marco_generica&gad_source" target="_blank">Carro</a>
+        </nav>
+        <main>
+            <section>
+                <h3>contate-nos</h3>
+                <form class="formulario">
+                    <table>
+                        <tr>
+                            <td><input type="text" id="nome" name="nome" value="Carlos Moraes" class="input" required></td>
+                            <td><label for="nome">Nome*</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" id="email" name="email" class="input" required></td>
+                            <td><label for="email">Email*</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="tel" id="telefone" name="telefone" class="input"></td>
+                            <td><label for="telefone">Telefone</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="endereco" name="endereco" class="input"></td>
+                            <td><label for="endereco">Endereço</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="date" id="nascimento" name="nascimento" class="input"></td>
+                            <td><label for="nascimento">Data de Nascimento</label></td>
+                        </tr>
+                        <tr>
+                            <td><select id="conheceu" name="conheceu" class="input">
+                                <option value="amigos">Amigos</option>
+                                <option value="anuncio">Anuncio</option>
+                                <option value="pesquisa">Pesquisa</option>
+                                <option value="outros">Outros</option>
+                        </select></td>
+                            <td><label for="conheceu">Onde nos conheceu?</label></td>
+                        </tr>
+                        <tr>
+                            <td><textarea type="text" id="mensagem" name="mensagem" rows="2" class="input"></textarea> 
+                            <td><label for="mensagem">Mensagem</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="novidade" name="novidade" class="input"></td>
+                            <td><label for="novidade">Deseja receber novidade?</label></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="submit" value="enviar"></td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>CVC Brasil Operadora e Agência de Viagens S.A</p>
+        </footer>
+    </body>
+</html>
